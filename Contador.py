@@ -14,8 +14,4 @@ for i in palavra:
         consoantes += 1
     else:
         vogais += 1
-print(
-    f"A Palavra tem {contador} letras, {consoantes} consoantes e {vogais} vogais")
-
-'''print("A palavra tem:", palavra.count("A") + palavra.count("E") +
-      palavra.count("I") + palavra.count("O") + palavra.count("U"), "vogais")'''
+print(f"A Palavra tem {contador} letras, {consoantes} consoantes e {vogais} vogais")
