@@ -99,3 +99,19 @@ ranking = [f"{i + 1}º lugar: {aluno} - nota {nota}" for i,
            (aluno, nota) in enumerate(ordena)]
 print(ranking)
 print(ordena)
+
+
+# Ranking de filmes
+'''Junte as duas listas em uma lista de tuplas com zip.
+
+Ordene os filmes por nota, da maior para a menor.'''
+
+filmes = ["Barbie", "Oppenheimer", "Interstellar", "Duna", "Avatar"]
+notas = [9.5, 9.7, 9.3, 8.8, 9.0]
+
+ordenacao = sorted(zip(filmes, notas), key=lambda x: x[1], reverse=True)
+
+lista_filmes = [f"{i + 1}º lugar: {filme} - nota: {nota}" for i,
+                (filme, nota) in enumerate(ordenacao)]
+
+print(lista_filmes)
