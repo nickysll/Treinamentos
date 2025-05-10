@@ -1,0 +1,1 @@
+Exercicios de manipulação de listas,tuplas, dict, uso de zip, enumerate e lambda
